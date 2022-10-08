@@ -1,0 +1,18 @@
+.text{
+    display: inline;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: larger;
+}
+.button{
+    margin-left: 10px;
+    border-radius: 4px;
+    padding: 4px;
+}
+.button:hover,
+.button:focus{
+    background-color: rgb(29, 159, 229);
+}
+.item{
+    margin-bottom: 10px;
+}
