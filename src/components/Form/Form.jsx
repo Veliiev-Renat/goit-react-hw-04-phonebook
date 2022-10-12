@@ -2,7 +2,7 @@ import { useState } from "react";
 import style from '../Form/Form.module.css'
 import PropTypes from 'prop-types';
 
-export default function  Form({submit,}){
+export default function  Form({submit}){
 
   const [name,setName] = useState('')
   const [number,setNumber] = useState(''),
